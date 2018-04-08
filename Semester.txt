@@ -1,0 +1,26 @@
+package control;
+
+public class Semester {
+	private String semesterID;
+	private String programmeID;
+
+	public Semester(String semesterID,String programmeID) 
+	{
+		this.semesterID = semesterID;
+		this.programmeID = programmeID;
+	}
+	
+	public String getSemesterID()
+	{
+		return semesterID;
+	}
+	
+	public String getProgrammeID()
+	{
+		return programmeID;
+	}
+	
+
+	
+
+}
